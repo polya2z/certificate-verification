@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-image: url('/Banner.png');
+
+}
+
+.certificate-verification {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px; /* Adjusted margin for smaller screens */
+}
+h2{
+  font-size: xx-large;
+  
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 18px;
+  color: #555;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.verify-button {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.verify-button:hover {
+  background-color: #005a99;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .certificate-verification {
+    max-width: 90%;
+    margin-top: 40px; /* Adjusted margin for smaller screens */
+    margin: 20px;
+  }
+}
